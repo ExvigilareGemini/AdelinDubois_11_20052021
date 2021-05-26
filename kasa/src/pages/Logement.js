@@ -1,11 +1,12 @@
 import React from 'react';
-import {withRouter} from 'react-router';
+import {Redirect} from 'react-router';
+import {propertyForSellDatas} from '../data/data';
 
 class Logement extends React.Component {
-    render() {
-        // id récupéré provenant de l'URL
-        console.log(this.props.match.params.id)
-        return <h1>Logement</h1>
+
+    render() {      
+        // check if id in URL is inside the json to render logement or error
+        return propertyForSellDatas.some(a => a.id === this.props.match.params.id) ? <h1>Logement</h1> : <Redirect to="/NoMatchedId" />;
     }
 }
 

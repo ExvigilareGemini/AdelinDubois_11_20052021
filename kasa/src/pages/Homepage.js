@@ -8,7 +8,7 @@ class Homepage extends React.Component {
         return  <div>
                     <h1>Homepage</h1>
                     {Datas.map((data) => {
-                        return <Thumb id={data.id} cover={data.cover} title={data.title} />
+                        return <Thumb key={data.id} id={data.id} cover={data.cover} title={data.title} />
                     })}
                 </div>
             

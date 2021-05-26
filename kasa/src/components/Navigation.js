@@ -9,7 +9,7 @@ class Navigation extends React.Component {
                            <li>Acceuil</li>
                        </Link>
            
-                       <Link to="APropos">
+                       <Link to="/APropos">
                            <li>A propos</li>
                        </Link>
            
