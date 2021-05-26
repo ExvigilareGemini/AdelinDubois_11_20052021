@@ -1,8 +1,10 @@
 import Homepage from './pages/Homepage';
 import APropos from './pages/APropos'
 import Logement from './pages/Logement';
-import Navigation from './components/Navigation';
 import Error404 from './pages/Error404';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import './styles/App.css';
 import {Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
           <Route path="/Logement/:id" component={Logement}/>
           <Route path="*" component={Error404} />
         </Switch>
+        <Footer />
     </div>
   );
 }

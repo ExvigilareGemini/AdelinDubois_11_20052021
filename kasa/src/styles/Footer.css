@@ -1,0 +1,22 @@
+.footer{
+    background-color: #000;
+    height: 200px;
+    width: 100vw;
+}
+
+.footerLogo {
+    position: relative;
+    left: 50vw;
+    top : 30%;
+    transform: translateX(-50%);
+}
+
+.footerText {
+    position: relative;
+    width: fit-content;
+    left: 50vw;
+    top : 35%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+}

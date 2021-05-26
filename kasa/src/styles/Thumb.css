@@ -23,9 +23,8 @@
 .thumbTitle {
     position: absolute;
     left: 5%;
-    bottom: 0;
+    bottom: 5%;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     z-index: 10;
 }
