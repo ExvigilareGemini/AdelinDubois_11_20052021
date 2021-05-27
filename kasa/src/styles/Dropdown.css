@@ -1,0 +1,34 @@
+.dropdown {
+    width: 600px;
+}
+.dropdownButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: inherit;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FF6060;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.dropdownMenu{
+    width: inherit;
+    padding: 20px 0 ;
+    list-style: none;
+    background-color: #f6f6f6;
+    color: #FF6060;
+    font-size: 18px;
+    border-radius: 0 0 10px 10px;
+}
+
+.dropdownItem{
+    margin: 5px 20px;
+}
+
+.hidden{
+    display: none;
+}
