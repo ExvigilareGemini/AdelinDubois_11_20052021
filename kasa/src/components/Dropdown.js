@@ -2,21 +2,19 @@ import React from 'react';
 import '../styles/Dropdown.css';
 
 class Dropdown extends React.Component {
-    constructor(props) {
-        super(props);
-        this.dropdownState = false;
-    }
-
-    toggleDropdown() {
-        console.log(this.dropdownState)
-        this.dropdownState === false ? this.dropdownState = true : this.dropdownState = false;
+    state = {
+        isOpen: false
     }
 
     render() {
+        const dropOpen = this.state.isOpen;
         return (
                         <div className="dropdown" >
-                            <button className="dropdownButton" onClick={this.toggleDropdown.bind(this)}> {this.props.name}  <img src={this.props.icon} alt=""></img> </button>
-                            <ul className="dropdownMenu">
+                            <button className="dropdownButton" onClick={ () => this.setState({isOpen: !dropOpen}) }>  
+                                {this.props.name}   
+                                <img className={dropOpen ? "rotated" : ""} src={this.props.icon} alt=""></img> 
+                            </button>
+                            <ul className={dropOpen ? "dropdownMenu" : "dropdownMenu hidden"}>
                                 {this.props.houseObject.equipments.map((equipement) => {
                                     return <li key={equipement + this.props.houseObject.id} className="dropdownItem"> {equipement} </li>
                                 })}
