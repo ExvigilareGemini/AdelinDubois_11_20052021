@@ -1,0 +1,33 @@
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 1240px;
+    width: 80vw;
+    height: 220px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.bannerImage {
+    max-width: 1240px;
+    width: 80vw;
+    height: 220px;
+    object-fit: cover;
+}
+
+.bannerText {
+    position: absolute;
+    align-self: center;
+    font-size: 48px;
+    color: white;
+}
+
+.darker {
+    position: absolute;
+    max-width: 1240px;
+    width: 80vw;
+    height: 220px;
+    background-color: black;
+    opacity: 0.3;
+}
