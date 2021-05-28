@@ -1,19 +1,23 @@
 import React from 'react';
-import Dropdown from '../components/Dropdown'
+import Dropdown from '../components/Dropdown';
+import Carrousel from '../components/Carrousel';
 import {Redirect} from 'react-router';
 import {propertyForSellDatas} from '../data/data';
-import ArrowDown from '../img/ArrowDownIcon.svg'
+
+
 
 class Logement extends React.Component {
 
     
 
     render() {      
+        const actualHouse = propertyForSellDatas.find(property => property.id === this.props.match.params.id);
         // check if id in URL is inside the json to render logement or error
         return !propertyForSellDatas.some(property => property.id === this.props.match.params.id) ? <Redirect to="/NoMatchedId" /> : 
                     <div>
                         <h1>Logement</h1> 
-                        <Dropdown name="Equipements" icon={ArrowDown} houseObject={propertyForSellDatas.find(property => property.id === this.props.match.params.id)} />
+                        <Carrousel housePictures={actualHouse.pictures} />
+                        <Dropdown name="Equipements" houseObject={actualHouse} />
                     </div>
                     
     }

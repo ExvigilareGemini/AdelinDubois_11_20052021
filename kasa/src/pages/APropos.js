@@ -1,6 +1,5 @@
 import React from 'react';
 import DropdownLarge from '../components/Dropdown-large';
-import ArrowDown from '../img/ArrowDownIcon.svg';
 import textAPropos from '../data/textAPropos';
 
 class APropos extends React.Component {
@@ -8,7 +7,7 @@ class APropos extends React.Component {
         return  <div>
                     <h1>A propos</h1>
                     {textAPropos.map((el) => {
-                        return <DropdownLarge name={el.title} icon={ArrowDown} text={el.text} />
+                        return <DropdownLarge name={el.title} text={el.text} />
                     })}
                 </div>
 

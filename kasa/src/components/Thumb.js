@@ -8,7 +8,7 @@ class Thumb extends React.Component {
                         <div className="thumb" >
                             <Link to={"Logement/" + this.props.id}>
                             <div className="thumbTransparentEffect"></div>
-                            <img className="thumbImage" src={this.props.cover} alt="Présentation du lieu"></img>
+                            <img loading="lazy" className="thumbImage" src={this.props.cover} alt="Présentation du lieu"></img>
                             <p className="thumbTitle">{this.props.title}</p>
                             </Link>
                         </div>
