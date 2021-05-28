@@ -2,7 +2,7 @@
     position: relative;
     width: 80vw;
     max-width: 1240px;
-    height: 420px;
+    height: 255px;
     border-radius: 25px;
     overflow: hidden;
 }
@@ -10,7 +10,7 @@
 .carrouselImage {
     position: absolute;
     width: 100%;
-    height: 420px;
+    height: 255px;
     object-fit: cover;
     opacity: 0;
 }
@@ -20,6 +20,7 @@
 }
 
 .carrouselRightArrow {
+    height: 40px;
     position: absolute;
     top: 40%;
     right: 3%;
@@ -27,9 +28,25 @@
 }
 
 .carrouselLeftArrow {
+    height: 40px;
     position: absolute;
     top: 40%;
     left: 3%;
     cursor: pointer;
     transform: rotate(180deg);
+}
+
+@media screen and (min-width: 750px) {
+    .carrousel {
+        height: 420px;
+    }
+    .carrouselImage {
+        height: 420px;
+    }
+    .carrouselRightArrow {
+        height: unset;
+    }
+    .carrouselLeftArrow {
+        height: unset;
+    }
 }

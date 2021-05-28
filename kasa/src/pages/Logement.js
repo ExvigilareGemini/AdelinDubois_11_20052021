@@ -18,8 +18,8 @@ class Logement extends React.Component {
                     <div>
                         <h1>Logement</h1> 
                         <Carrousel housePictures={actualHouse.pictures} />
-                        {actualHouse.tags.map((tagText) => {
-                            return  <Tag text={tagText} />
+                        {actualHouse.tags.map((tagText, index) => {
+                            return  <Tag key={index + tagText} text={tagText} />
                         })}
                         <Dropdown name="Equipements" houseObject={actualHouse} />
                     </div>

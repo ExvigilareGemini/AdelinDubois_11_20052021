@@ -4,7 +4,7 @@
     justify-content: center;
     max-width: 1240px;
     width: 80vw;
-    height: 220px;
+    height: 110px;
     border-radius: 25px;
     overflow: hidden;
 }
@@ -19,7 +19,9 @@
 .bannerText {
     position: absolute;
     align-self: center;
-    font-size: 48px;
+    margin: 0 10px;
+    /* font-size: 48px; */
+    font-size: 24px;
     color: white;
 }
 
@@ -30,4 +32,13 @@
     height: 220px;
     background-color: black;
     opacity: 0.3;
+}
+
+@media screen and (min-width: 570px) {
+    .banner {
+        height: 220px;
+    }
+    .bannerText {
+        font-size: 48px;
+    }
 }
