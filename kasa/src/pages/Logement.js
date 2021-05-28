@@ -1,6 +1,7 @@
 import React from 'react';
 import Dropdown from '../components/Dropdown';
 import Carrousel from '../components/Carrousel';
+import Tag from '../components/Tag';
 import {Redirect} from 'react-router';
 import {propertyForSellDatas} from '../data/data';
 
@@ -17,6 +18,9 @@ class Logement extends React.Component {
                     <div>
                         <h1>Logement</h1> 
                         <Carrousel housePictures={actualHouse.pictures} />
+                        {actualHouse.tags.map((tagText) => {
+                            return  <Tag text={tagText} />
+                        })}
                         <Dropdown name="Equipements" houseObject={actualHouse} />
                     </div>
                     
