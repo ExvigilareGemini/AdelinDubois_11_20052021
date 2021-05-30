@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Thumb.css';
+import '../styles/components/Thumb.css';
 import {Link} from 'react-router-dom';
 
 class Thumb extends React.Component {

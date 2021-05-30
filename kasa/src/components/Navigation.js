@@ -1,17 +1,18 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+import '../styles/components/Navigation.css';
 
 class Navigation extends React.Component {
     render() {
-        return <nav>
-                   <ul>
-                       <Link to="/">
-                           <li>Acceuil</li>
-                       </Link>
+        return <nav className="navigation">
+                   <ul className="navigationList">
+                       <NavLink exact to="/">
+                           <li className="navigationNavLink">Acceuil</li>
+                       </NavLink>
            
-                       <Link to="/APropos">
-                           <li>A propos</li>
-                       </Link>
+                       <NavLink exact to="/APropos">
+                           <li className="navigationNavLink">A propos</li>
+                       </NavLink>
            
                    </ul>
                </nav>

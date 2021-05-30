@@ -2,7 +2,7 @@ import Homepage from './pages/Homepage';
 import APropos from './pages/APropos'
 import Logement from './pages/Logement';
 import Error404 from './pages/Error404';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import './styles/App.css';
 import {Route, Switch} from 'react-router-dom';
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-        <Navigation />
+        <Header />
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/APropos" component={APropos} />

@@ -18,5 +18,11 @@
     top : 35%;
     transform: translateX(-50%);
     color: white;
-    font-size: 24px;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 420px) {
+    .footerText {
+        font-size: 24px;
+    }
 }

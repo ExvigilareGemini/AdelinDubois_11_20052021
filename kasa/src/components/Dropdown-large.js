@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Dropdown.css';
+import '../styles/components/Dropdown.css';
 import ArrowDown from '../img/ArrowDownIcon.svg';
 
 

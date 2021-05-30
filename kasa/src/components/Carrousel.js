@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Carrousel.css';
+import '../styles/components/Carrousel.css';
 import ArrowRight from '../img/CarrouselArrow.svg';
 
 class Carrousel extends React.Component {
