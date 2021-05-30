@@ -10,13 +10,13 @@
     position: absolute;
     z-index: 10;
     height: 340px;
-    width: 340px;
+    width: 100%;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .thumbImage {
     height: 340px;
-    width: 340px;
+    width: 100%;
     object-fit: cover;
     z-index: -10;
 }
@@ -34,5 +34,12 @@
     .thumb {
         height: 340px;
         width: 340px;
+        margin: 25px 25px;
     }
 }
+
+/* @media screen and (min-width: 880px) {
+    .thumb {
+        margin: 25px 25px;
+    }
+} */

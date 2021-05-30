@@ -26,3 +26,12 @@ a {
     color: #ff6060;
 }
 
+@media screen and (min-width: 420px) {
+    .navigationNavLink {
+        font-size: 22px;
+    }
+    .navigation {
+        min-width: 200px;
+    }
+}
+
