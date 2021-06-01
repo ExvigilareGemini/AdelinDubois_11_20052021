@@ -1,9 +1,8 @@
 .carrousel {
     position: relative;
-    width: 80vw;
-    max-width: 1240px;
+    width: 100%;
     height: 255px;
-    border-radius: 25px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -39,6 +38,7 @@
 @media screen and (min-width: 750px) {
     .carrousel {
         height: 420px;
+        border-radius: 25px;
     }
     .carrouselImage {
         height: 420px;

@@ -14,12 +14,16 @@ class Dropdown extends React.Component {
                         <div className="dropdown" >
                             <button className="dropdownButton" onClick={ () => this.setState({isOpen: !dropOpen}) }>  
                                 {this.props.name}   
-                                <img className={dropOpen ? "rotated" : ""} src={ArrowDown} alt=""></img> 
+                                <img className={dropOpen ? "arrow rotated" : "arrow"} src={ArrowDown} alt=""></img> 
                             </button>
                             <ul className={dropOpen ? "dropdownMenu" : "dropdownMenu hidden"}>
-                                {this.props.houseObject.equipments.map((equipement) => {
+                            {Array.isArray(this.props.toDisplay) ?
+                                this.props.toDisplay.map((equipement) => {
                                     return <li key={equipement + this.props.houseObject.id} className="dropdownItem"> {equipement} </li>
-                                })}
+                                })
+                                :
+                                <p>{this.props.toDisplay}</p>
+                            }
                             </ul>
                         </div>
                     

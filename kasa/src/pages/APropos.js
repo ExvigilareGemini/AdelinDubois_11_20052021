@@ -4,8 +4,7 @@ import textAPropos from '../data/textAPropos';
 
 class APropos extends React.Component {
     render() {
-        return  <div>
-                    <h1>A propos</h1>
+        return  <div className="main">
                     {textAPropos.map((el) => {
                         return <DropdownLarge name={el.title} text={el.text} />
                     })}
