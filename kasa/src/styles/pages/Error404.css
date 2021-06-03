@@ -1,0 +1,36 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ff6060;
+}
+
+.errorTitle {
+    margin-top: 20vh;
+    font-size: 96px;
+} 
+
+.errorMessage {
+    margin-bottom: 15vh;
+    text-align: center;
+    font-size: 18px;
+}
+
+.errorLink {
+    font-size: 14px;
+    color: #ff6060;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 750px) {
+    .errorTitle {
+        margin-top: 10vh;
+    font-size: 288px;
+    }  
+    .errorMessage {
+        font-size: 36px;
+    }
+    .errorLink {
+        font-size: 18px;
+    }
+}
