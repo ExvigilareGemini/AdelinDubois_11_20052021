@@ -11,12 +11,12 @@ class DropdownLarge extends React.Component {
     render() {
         const dropOpen = this.state.isOpen;
         return (
-                        <div className="dropdown large" >
-                            <button className="dropdownButton large" onClick={ () => this.setState({isOpen: !dropOpen}) }>  
+                        <div className="dropdownLarge" >
+                            <button className="dropdownButton" onClick={ () => this.setState({isOpen: !dropOpen}) }>  
                                 {this.props.name}   
-                                <img className={dropOpen ? "rotated" : ""} src={ArrowDown} alt=""></img> 
+                                <img className={dropOpen ? " arrow rotated" : "arrow"} src={ArrowDown} alt=""></img> 
                             </button>
-                            <p className={dropOpen ? "dropdownMenu text large" : "dropdownMenu text large hidden"}>{this.props.text}</p>
+                            <p className={dropOpen ? "dropdownMenu" : "dropdownMenu hidden"}>{this.props.text}</p>
                         </div>
                     
                 )
