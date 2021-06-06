@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AdelinDubois_11_20052021/static/css/main.87a6329a.chunk.css",
-    "main.js": "/AdelinDubois_11_20052021/static/js/main.abc2283b.chunk.js",
-    "main.js.map": "/AdelinDubois_11_20052021/static/js/main.abc2283b.chunk.js.map",
+    "main.js": "/AdelinDubois_11_20052021/static/js/main.b5c93531.chunk.js",
+    "main.js.map": "/AdelinDubois_11_20052021/static/js/main.b5c93531.chunk.js.map",
     "runtime-main.js": "/AdelinDubois_11_20052021/static/js/runtime-main.d2dc0cd6.js",
     "runtime-main.js.map": "/AdelinDubois_11_20052021/static/js/runtime-main.d2dc0cd6.js.map",
     "static/js/2.ee4ec71d.chunk.js": "/AdelinDubois_11_20052021/static/js/2.ee4ec71d.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.d2dc0cd6.js",
     "static/js/2.ee4ec71d.chunk.js",
     "static/css/main.87a6329a.chunk.css",
-    "static/js/main.abc2283b.chunk.js"
+    "static/js/main.b5c93531.chunk.js"
   ]
 }
