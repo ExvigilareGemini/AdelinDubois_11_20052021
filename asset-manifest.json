@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.87a6329a.chunk.css",
-    "main.js": "/static/js/main.5b0c64c1.chunk.js",
-    "main.js.map": "/static/js/main.5b0c64c1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a9214161.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a9214161.js.map",
-    "static/js/2.ee4ec71d.chunk.js": "/static/js/2.ee4ec71d.chunk.js",
-    "static/js/2.ee4ec71d.chunk.js.map": "/static/js/2.ee4ec71d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.87a6329a.chunk.css.map": "/static/css/main.87a6329a.chunk.css.map",
-    "static/js/2.ee4ec71d.chunk.js.LICENSE.txt": "/static/js/2.ee4ec71d.chunk.js.LICENSE.txt",
-    "static/media/ArrowDownIcon.b493ffa8.svg": "/static/media/ArrowDownIcon.b493ffa8.svg",
-    "static/media/CarrouselArrow.88153a5d.svg": "/static/media/CarrouselArrow.88153a5d.svg",
-    "static/media/GreyStar.6870d270.svg": "/static/media/GreyStar.6870d270.svg",
-    "static/media/LOGO.ee689fd9.svg": "/static/media/LOGO.ee689fd9.svg",
-    "static/media/LOGOHeader.bb7954d0.svg": "/static/media/LOGOHeader.bb7954d0.svg",
-    "static/media/RedStar.436cdaa5.svg": "/static/media/RedStar.436cdaa5.svg"
+    "main.css": "/AdelinDubois_11_20052021/static/css/main.87a6329a.chunk.css",
+    "main.js": "/AdelinDubois_11_20052021/static/js/main.abc2283b.chunk.js",
+    "main.js.map": "/AdelinDubois_11_20052021/static/js/main.abc2283b.chunk.js.map",
+    "runtime-main.js": "/AdelinDubois_11_20052021/static/js/runtime-main.d2dc0cd6.js",
+    "runtime-main.js.map": "/AdelinDubois_11_20052021/static/js/runtime-main.d2dc0cd6.js.map",
+    "static/js/2.ee4ec71d.chunk.js": "/AdelinDubois_11_20052021/static/js/2.ee4ec71d.chunk.js",
+    "static/js/2.ee4ec71d.chunk.js.map": "/AdelinDubois_11_20052021/static/js/2.ee4ec71d.chunk.js.map",
+    "index.html": "/AdelinDubois_11_20052021/index.html",
+    "static/css/main.87a6329a.chunk.css.map": "/AdelinDubois_11_20052021/static/css/main.87a6329a.chunk.css.map",
+    "static/js/2.ee4ec71d.chunk.js.LICENSE.txt": "/AdelinDubois_11_20052021/static/js/2.ee4ec71d.chunk.js.LICENSE.txt",
+    "static/media/ArrowDownIcon.b493ffa8.svg": "/AdelinDubois_11_20052021/static/media/ArrowDownIcon.b493ffa8.svg",
+    "static/media/CarrouselArrow.88153a5d.svg": "/AdelinDubois_11_20052021/static/media/CarrouselArrow.88153a5d.svg",
+    "static/media/GreyStar.6870d270.svg": "/AdelinDubois_11_20052021/static/media/GreyStar.6870d270.svg",
+    "static/media/LOGO.ee689fd9.svg": "/AdelinDubois_11_20052021/static/media/LOGO.ee689fd9.svg",
+    "static/media/LOGOHeader.bb7954d0.svg": "/AdelinDubois_11_20052021/static/media/LOGOHeader.bb7954d0.svg",
+    "static/media/RedStar.436cdaa5.svg": "/AdelinDubois_11_20052021/static/media/RedStar.436cdaa5.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9214161.js",
+    "static/js/runtime-main.d2dc0cd6.js",
     "static/js/2.ee4ec71d.chunk.js",
     "static/css/main.87a6329a.chunk.css",
-    "static/js/main.5b0c64c1.chunk.js"
+    "static/js/main.abc2283b.chunk.js"
   ]
 }
