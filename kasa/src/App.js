@@ -14,6 +14,7 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Homepage} />
+          <Route path="/AdelinDubois_11_20052021/" exact component={Homepage} />
           <Route path="/APropos" exact component={APropos} />
           <Route path="/Logement/:id" component={Logement}/>
           <Route path="*" component={Error404} />
