@@ -21,7 +21,7 @@ function App() {
           <Route path="/Logement/:id" component={Logement}/>
           <Route path="*" component={Error404} />
         </Switch>
-        <Footer />
+        <Footer />https://github.com/ExvigilareGemini/AdelinDubois_11_20052021.git
     </div>
   );
 }
